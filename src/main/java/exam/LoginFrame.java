@@ -125,7 +125,7 @@ public class LoginFrame extends JFrame {
         // Ensure the card doesn't stretch too wide
         wrapper.setMaximumSize(new Dimension(400, 600));
 
-        root.add(card, rc);
+        root.add(wrapper, rc);
 
         add(root);
 
